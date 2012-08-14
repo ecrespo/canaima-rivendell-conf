@@ -2,7 +2,7 @@
 
 DEB_DIVERT_EXTENSION = .canaima
 # Replace some base files with simple replacements.
-DEB_DIVERT_FILES_canaima-rivendell-init += \
+DEB_DIVERT_FILES_canaima-rivendell-conf += \
         /etc/rd.conf.canaima         
 # These files are installed via dh_install from the files/ directory
 # (see debian/canaima-rivendell-conf.install)

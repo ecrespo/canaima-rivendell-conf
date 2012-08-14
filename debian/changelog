@@ -1,3 +1,9 @@
+canaima-rivendell-conf (0.2) unstable; urgency=low
+
+  * Fix DEB_DIVERT_FILES_canaima-rivendell-conf.
+
+ -- Ernesto Nadir Crespo Avila <ecrespo@cenditel.gob.ve>  Tue, 14 Aug 2012 14:19:24 -0430
+
 canaima-rivendell-conf (0.1) unstable; urgency=low
 
   * Initial release.
