@@ -1,0 +1,15 @@
+Source: canaima-rivendell-conf
+Section: config
+Priority: extra
+Maintainer: Ernesto Nadir Crespo Avila <ecrespo@cenditel.gob.ve>
+Build-Depends: cdbs (>= 0.4.23-1.1), debhelper (>= 4.2.0), config-package-dev (>= 4.5~)
+Standards-Version: 3.9.2
+
+Package: canaima-rivendell-conf
+Architecture: all
+Pre-Depends: canaima-rivendell
+Depends: cdbs, ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Archivo que cambia configuracion en rivendell
+ Paquete que  modifica el archivo rd.conf que viene por defecto en rivendell.
