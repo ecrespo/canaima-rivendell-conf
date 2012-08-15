@@ -1,0 +1,27 @@
+[Identity]
+; Specify who uses rivendell interfaces (like rdairplay)
+; This user must be into the rivendell unix group
+AudioOwner=
+AudioGroup=rivendell
+
+[mySQL]
+Hostname=localhost
+Loginname=root
+Password=123456
+Database=Rivendell
+Driver=QMYSQL3
+
+[Logs]
+Facility=Syslog
+
+[Alsa]
+PeriodQuantity=4
+PeriodSize=1024
+
+[Tuning]
+UseRealtime=Yes
+RealtimePriority=9
+
+[Format]
+SampleRate=44100
+Channels=2
